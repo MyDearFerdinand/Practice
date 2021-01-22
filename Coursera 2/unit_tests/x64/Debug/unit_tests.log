@@ -1,0 +1,4 @@
+﻿  unit_tests.cpp
+Z:\dev_workspace\Coursera 2\unit_tests\unit_tests.cpp(28,22): error C2512: std::runtime_error: нет подходящего конструктора по умолчанию
+Z:\dev_workspace\Coursera 2\unit_tests\unit_tests.cpp(30,1): message : Ни один конструктор не смог принять исходный тип, либо разрешение перегрузки конструктора неоднозначно
+Z:\dev_workspace\Coursera 2\unit_tests\unit_tests.cpp(28,9): error C2064: результатом вычисления фрагмента не является функция, принимающая 0 аргументов

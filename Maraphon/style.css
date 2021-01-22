@@ -1,0 +1,57 @@
+.prof {
+    color: #ff3232;
+    font-size: 14px;
+    }
+.text {
+    font-size: 14px;
+    margin-top: 0px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap');
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+.title {
+    font-size: 48px;
+    margin-top: 48px;
+    margin-bottom: 18px;
+}
+.exp {
+    font-size: 24px;
+    margin-top: 48px;
+}
+
+.aside {
+    width: 310px;
+    background-color: #1A142D;
+    color: #fff;
+    padding-top: 18px;
+    padding-left: 18px;
+    padding-right: 19px;
+    padding-bottom: 46px;
+    box-sizing: border-box;
+    text-align: center;
+    margin-right: 67px;
+    margin-top: 64px;
+    margin-left: 57px;
+    margin-bottom: 63px;
+}
+.birth_info {
+    font-size: 14px;
+    margin-bottom: 46px;
+}
+.photo {
+    width: 100%;
+    border: 1px solid #fff;
+}
+.main {
+    width: 467px;
+    margin-top: 64px;
+
+}
+.container {
+    display: flex;
+}
+.social-icon:hover {
+    position:relative;
+    bottom: 5px;
+}

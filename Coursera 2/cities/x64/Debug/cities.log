@@ -1,0 +1,23 @@
+﻿  cities.cpp
+Z:\dev_workspace\Coursera 2\cities\cities.cpp(15,6): error C2065: Lang: необъявленный идентификатор
+Z:\dev_workspace\Coursera 2\cities\cities.cpp(15,2): error C2923: std::map: "Lang" не является допустимым аргументом типа шаблон для параметра "_Kty"
+Z:\dev_workspace\Coursera 2\cities\cities.cpp(15,20): error C2955: "std::map": для использования класс шаблон требуется список аргументов шаблон
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\map(75): message : см. объявление "std::map"
+Z:\dev_workspace\Coursera 2\cities\cities.cpp(24,9): error C2672: "tie": не найдена соответствующая перегруженная функция
+Z:\dev_workspace\Coursera 2\cities\cities.cpp(24,73): error C2893: Сбой при специализации функции-шаблона "std::tuple<_Types...> std::tie(_Types &...) noexcept".
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\tuple(832): message : см. объявление "std::tie"
+Z:\dev_workspace\Coursera 2\cities\cities.cpp(24,73): message : Со следующими аргументами шаблона:
+Z:\dev_workspace\Coursera 2\cities\cities.cpp(24,73): message : "_Types={const std::string, const std::string, const std::map, const int64_t}"
+Z:\dev_workspace\Coursera 2\cities\cities.cpp(25,3): error C2672: "tie": не найдена соответствующая перегруженная функция
+Z:\dev_workspace\Coursera 2\cities\cities.cpp(25,67): error C2893: Сбой при специализации функции-шаблона "std::tuple<_Types...> std::tie(_Types &...) noexcept".
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\tuple(832): message : см. объявление "std::tie"
+Z:\dev_workspace\Coursera 2\cities\cities.cpp(25,67): message : Со следующими аргументами шаблона:
+Z:\dev_workspace\Coursera 2\cities\cities.cpp(25,67): message : "_Types={const std::string, const std::string, const std::map, const int64_t}"
+Z:\dev_workspace\Coursera 2\cities\cities.cpp(38,13): error C2664: "int FindMaxRepetitionCount(const std::vector<Region,std::allocator<Region>> &)": невозможно преобразовать аргумент 1 из "initializer list" в "const std::vector<Region,std::allocator<Region>> &"
+Z:\dev_workspace\Coursera 2\cities\cities.cpp(65,10): message : Причина: невозможно преобразовать "initializer list" в "const std::vector<Region,std::allocator<Region>>"
+Z:\dev_workspace\Coursera 2\cities\cities.cpp(65,10): message : Ни один конструктор не смог принять исходный тип, либо разрешение перегрузки конструктора неоднозначно
+Z:\dev_workspace\Coursera 2\cities\cities.cpp(28,5): message : см. объявление "FindMaxRepetitionCount"
+Z:\dev_workspace\Coursera 2\cities\cities.cpp(67,13): error C2664: "int FindMaxRepetitionCount(const std::vector<Region,std::allocator<Region>> &)": невозможно преобразовать аргумент 1 из "initializer list" в "const std::vector<Region,std::allocator<Region>> &"
+Z:\dev_workspace\Coursera 2\cities\cities.cpp(94,10): message : Причина: невозможно преобразовать "initializer list" в "const std::vector<Region,std::allocator<Region>>"
+Z:\dev_workspace\Coursera 2\cities\cities.cpp(94,10): message : Ни один конструктор не смог принять исходный тип, либо разрешение перегрузки конструктора неоднозначно
+Z:\dev_workspace\Coursera 2\cities\cities.cpp(28,5): message : см. объявление "FindMaxRepetitionCount"

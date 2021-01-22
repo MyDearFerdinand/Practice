@@ -1,0 +1,7 @@
+﻿  ostream_functions.cpp
+Z:\dev_workspace\Coursera 2\ostream_functions\ostream_functions.cpp(65,21): error C3539: аргумент-шаблон не может быть типом, содержащим "auto"
+Z:\dev_workspace\Coursera 2\ostream_functions\ostream_functions.cpp(65,26): warning C4244: аргумент: преобразование "double" в "K", возможна потеря данных
+          with
+          [
+              K=int
+          ]
